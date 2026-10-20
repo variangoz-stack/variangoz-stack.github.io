@@ -1,0 +1,96 @@
+:root{
+  --text-color: #1a1c20;
+  --link-color: #9e27ff;
+  --background-image: url("./assets/BackGround.jpg");
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "Bricolage Grotesque", sans-serif;
+  background-image: var(--background-image);
+   backdrop-filter: blur(2px);
+}
+
+a{
+  color:var(--link-color);
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 255, 255);
+    line-height: 1.8;
+}
+.header
+{
+  text-align: center;
+}
+
+.header h3{
+  padding: 20px;
+  font-size: 60px;
+}
+
+.logo
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img
+{
+  border-radius: 20%;
+  padding: 5px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Div
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 10 0px;
+}
+.Div img
+{
+  border-radius: 8px;
+  padding: 5px;
+  width: 1000px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.466);
+}
+
+.text
+{
+  font-size: 30px;
+   text-align: center;
+   padding: 20px;
+}
+
+.text pre
+{
+  font-family: "Bricolage Grotesque";
+}
+.Game
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Game video
+{
+  border-radius: 8px;
+  padding: 5px;
+  width: 66%;
+  height: auto;
+box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.466);
+
+}
